@@ -1,0 +1,106 @@
+div.wrapper > div.menuup > div.logo {
+  width: 100%;
+  height: 68px;
+}
+div.wrapper > div.menuup > div.logo > div.cart {
+  width: 5%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+div.wrapper > div.menuup > div.logo > div.cart > div {
+  width: 100%;
+  height: 30px;
+  border-right: 1px solid lightgrey;
+
+  margin-top: 20px;
+  text-align: center;
+}
+div.wrapper > div.menuup > div.logo > div.cart > div > i {
+  font-size: 17px;
+  line-height: 30px;
+  transform: rotateY(180deg);
+  cursor: pointer;
+  color: rgb(66, 71, 80);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+div.wrapper > div.menuup > div.logo > div.log-in {
+  width: 10%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 12px;
+
+  color: rgb(44, 43, 43);
+}
+div.wrapper > div.menuup > div.logo > div.log-in > div {
+  width: 100%;
+  height: 42px;
+
+  margin-top: 13px;
+  text-align: center;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  line-height: 42px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(66, 71, 80);
+}
+div.wrapper > div.menuup > div.logo > div.log-in > div > i {
+  font-size: 17px;
+  line-height: 30px;
+  transform: rotateY(180deg);
+  margin-left: 7px;
+  cursor: pointer;
+  color: rgb(66, 71, 80);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+div.wrapper > div.menuup > div.logo > div.search {
+  width: 70%;
+  height: inherit;
+
+  display: inline-block;
+  vertical-align: top;
+  direction: rtl;
+}
+div.wrapper > div.menuup > div.logo > div.search > input {
+  all: unset;
+  width: 60%;
+  height: 60%;
+  background-color: rgb(240, 240, 241);
+  padding-right: 50px;
+  border-radius: 7px;
+  margin-right: -22px;
+  margin-top: 13px;
+}
+div.wrapper > div.menuup > div.logo > div.search > i {
+  margin-right: -610px;
+  color: rgb(161, 163, 168);
+}
+div.wrapper > div.menuup > div.logo > div.logo {
+  width: 9%;
+  height: inherit;
+
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 35px;
+}
+div.wrapper > div.menuup > div.logo > div.logo > a {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+}
+div.wrapper > div.menuup > div.logo > div.logo > a > img {
+  width: 116px;
+  height: 100%;
+  object-fit: contain;
+}

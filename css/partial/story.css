@@ -1,0 +1,39 @@
+div.wrapper > div.story {
+    width: 100%;
+    height: 155px;
+  
+    text-align: center;
+    direction: rtl;
+  }
+  div.wrapper > div.story > div {
+    width: 100px;
+    height: inherit;
+  
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 4px;
+  }
+  div.wrapper > div.story > div > div.img {
+    width: 75px;
+    height: 75px;
+    margin: 17px auto 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  div.wrapper > div.story > div > div.img > img {
+    width: 100%;
+    height: inherit;
+    border-radius: 50%;
+    border: 2px solid rgb(149, 62, 160);
+    padding: 3px;
+    object-fit: cover;
+  }
+  div.wrapper > div.story > div > p {
+    width: 100%;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+  }
